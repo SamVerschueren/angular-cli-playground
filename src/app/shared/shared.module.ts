@@ -1,6 +1,7 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
+import { TranslateModule } from 'ng2-translate';
 
 @NgModule({
 	imports: [
@@ -8,7 +9,8 @@ import { CommonModule } from '@angular/common';
 	],
 	exports: [
 		CommonModule,
-		RouterModule
+		RouterModule,
+		TranslateModule
 	],
 	declarations: [],
 	providers: []
